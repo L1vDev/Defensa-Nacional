@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Defensa Nacional</title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Theme style -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.1.0/dist/css/adminlte.min.css">
+    <link href="../static/css/styles.css" rel="stylesheet">
+</head>
+
+<body class="hold-transition layout-top-nav">
+    <div class="wrapper">
+        <nav class="main-header navbar navbar-expand-md p-2 fixed-top" data-bs-theme="dark"
+            style="background-color: #6F2DF3;">
+            <div class="container-fluid">
+                <a href="#main-screen" class="navbar-brand text-white hover:text-light">
+                    <h2><b>Defensa</b> Nacional</h2>
+                </a>
+                <!--Boton Offcanvas-->
+                <button class="btn btn-primary navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <i class="bi bi-list"></i>
+                </button>
+
+                <!--Offcanvas-->
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" style="background-color:#6F2DF3"
+                    aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h4 class="offcanvas-title text-light" id="offcanvasRightLabel">UCI Menu</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body d-md-none d-lg-none d-inline-block">
+                        <ul class="navbar-nav">
+                            <li class="nav-item col-12 px-2">
+                                <a class="nav-link" id="sl-offcanvas" href="#main-screen">Inicio</a>
+                            </li>
+                            <li class="nav-item col-12 px-2">
+                                <a class="nav-link" id="sl-offcanvas" href="#temas">Temas</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <!-- Left navbar links -->
+                    <ul class="navbar-nav ms-auto me-5">
+                        <li class="nav-item nav-link">
+                            <a href="#main-screen" id="subline">Inicio</a>
+                        </li>
+                        <li class="nav-item nav-link">
+                            <a href="#temas" id="subline">Temas</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <section id="main-screen">
+            <img src="../static/img/inicio.jpg" alt="Inicio">
+
+        </section>
+        <section id="temas">
+            <div class="content-wrapper">
+                <!-- Content Header (Page header) -->
+
+                <!-- Main content -->
+                <div class="container-fluid">
+                    <div class="row justify-content-center py-9" style="padding-top: 80px;">
+                        <div class="col-lg-4 col-md-6 col-sm-8 col-xs-12">
+                            <div class="card ms-5 mb-4" style="width: 18rem;">
+                                <img src="../static/img/tema1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tema #1</h5>
+                                    <p class="card-text"></p>
+                                    <a href="https://mega.nz/folder/wTkiACLL#37N2Og_7FuWk9WZ3z4VTDw"
+                                        class="btn btn-primary">Descargar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-8 col-xs-12">
+                            <div class="card ms-5 mb-4" style="width: 18rem;">
+                                <img src="../static/img/tema2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tema #2</h5>
+                                    <p class="card-text"></p>
+                                    <a href="https://mega.nz/folder/0etjwKQJ#JVQ0Zqx20kyQBAqXn1tDTA"
+                                        class="btn btn-primary">Descargar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-8 col-xs-12">
+                            <div class="card ms-5 mb-4" style="width: 18rem;">
+                                <img src="../static/img/tema3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tema #3</h5>
+                                    <p class="card-text"></p>
+                                    <a href="https://mega.nz/folder/FG8XwAoR#KGG5UyngoVRfwJVszbg5dA"
+                                        class="btn btn-primary">Descargar</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="main-footer text-light bg-dark" id="#foot">
+        <div class="container py-2">
+            <div class="text-center">
+                <p class="mb-0">All Rights Reserved &copy; UCI</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- REQUIRED SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/admin-lte@3.1.0/dist/js/adminlte.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/admin-lte@3.1.0/dist/js/adminlte.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+</body>
